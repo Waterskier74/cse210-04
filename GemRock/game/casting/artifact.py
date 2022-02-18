@@ -12,13 +12,14 @@ class Artifact(Actor):
     """
     def __init__(self):
         super().__init__()
-        self._message = ""
+        self.message = 1
+        #self._message = ""
         
     def get_message(self):
-        """Gets the artifact's message.
+        """Gets the gem's points.
         
         Returns:
-            string: The message.
+            int: Point value.
         """
         return self._message
     
